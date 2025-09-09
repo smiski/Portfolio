@@ -16,7 +16,6 @@ This project is a Monte Carlo retirement portfolio simulator that models the lon
 - **Customizable Financial Inputs:** Supports multiple individuals, joint accounts, pre- and post-retirement expenses, and user-defined investment allocations.  
 - **Interactive Visualization & Reporting:** Generates clear, professional plots of portfolio trajectories, with success rates, ending balances, and key statistical summaries to aid decision-making.  
 
-**Screenshot:**  
 ![Monte Carlo Simulation Screenshot](./Retirement_Simulator/screenshots/married.png)
 
 ---
