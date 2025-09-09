@@ -145,7 +145,6 @@ You can customize scenarios by modifying the input JSON file:
 - **"num_simulations":** Number of Monte Carlo simulations to run
 
 ### Tips ###
-
-•	To simulate a joint portfolio, include an individual with "name": "Joint" and specify the shared portfolio and savings.
-•	Modify "returns" and "inflation" to test different market conditions.
-•	Increase "num_simulations" for more robust statistics (slower) or decrease for faster results (less precise).
+- To simulate a joint portfolio, include an individual with "name": "Joint" and specify the shared portfolio and savings.
+- Modify "returns" and "inflation" to test different market conditions.
+- Increase "num_simulations" for more robust statistics (slower) or decrease for faster results (less precise).
