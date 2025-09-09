@@ -7,16 +7,16 @@ Each project has its own subdirectory with source code, documentation, and setup
 
 ## 📂 Projects
 
-### [Project Name 1](./Project1)
+### [Monte Carlo Retirement Simulator](./Retirement_Simulator)
 **Description:**  
-A short 2–3 sentence summary of what the project does, its purpose, and the technologies used.  
+This project is a Monte Carlo retirement portfolio simulator that models the long-term growth and depletion of individual or joint investment portfolios under varying market conditions. It provides probabilistic projections of portfolio balances, accounting for income, expenses, savings, inflation, and stochastic market returns, helping users make informed financial planning decisions. Built with Python, it leverages numpy for numerical computations and matplotlib for interactive visualizations.
 **Highlights:**  
-- Key feature 1  
-- Key feature 2  
-- Key feature 3  
+- **Stochastic Monte Carlo Simulation:** Runs thousands of scenarios to assess portfolio longevity and risk under realistic market volatility.  
+- **Customizable Financial Inputs:** Supports multiple individuals, joint accounts, pre- and post-retirement expenses, and user-defined investment allocations.  
+- **Interactive Visualization & Reporting:** Generates clear, professional plots of portfolio trajectories, with success rates, ending balances, and key statistical summaries to aid decision-making.  
 
 **Screenshot:**  
-![Project1 Screenshot](./Project1/screenshot.png)
+![Monte Carlo Simulation Screenshot](./Retirement_Simulator/screenshots/married.png)
 
 ---
 
