@@ -28,8 +28,8 @@ pip install numpy matplotlib
 ### Running the Simulator
 
 1.	Place the JSON input file in the same directory as the scripts. Example files provided:
-	•	married_retirement_input.json – for joint individuals
-	•	single.json – for a single individual
+- **married_retirement_input.json** – for joint individuals
+- **single_retirement_input.json** – for a single individual
 
 2.	Run the simulation and visualize results:
 ```
@@ -37,40 +37,112 @@ python visualization.py
 ```
 
 3.	View the outputs:
-	•	Interactive plot showing portfolio balances by age for all simulations
-	•	Text summary including:
-  	•	Success Rate (% of simulations ending with positive funds)
-  	•	Average Ending Balance
-  	•	Ending Balance ± 1 Standard Deviation
-  	•	Average Age Funds Last
+- Interactive plot showing portfolio balances by age for all simulations
+- Text summary including:
+	- Success Rate (% of simulations ending with positive funds)
+  	- Average Ending Balance
+	- Ending Balance ± 1 Standard Deviation
+  	- Average Age Funds Last
 
 ### Editing the JSON Inputs
 
 You can customize scenarios by modifying the input JSON file:
 
-Individual Information
-	•	"name": Individual’s name or "Joint" for shared accounts
-	•	"current_age": Current age in years
-	•	"retirement_age": Age at retirement
-	•	"planning_horizon": Age to simulate until (life expectancy)
-	•	"pre_retirement_income": Annual income before retirement (salary, bonuses, etc.)
-	•	"post_retirement_income": Annual income after retirement (Social Security, pensions, annuities, etc.)
-	•	"portfolio": Current balances in each bucket
-  	•	cash, taxable, tax_deferred, tax_free
-	•	"annual_savings": Contributions per year to each bucket
+```
+{
+  "individuals": [
+    {
+      "name": "Bill",
+      "current_age": 60,
+      "retirement_age": 67,
+      "planning_horizon": 90,
+      "pre_retirement_income": 80000,
+      "post_retirement_income": 30000,
+      "portfolio": {
+        "cash": 5000,
+        "taxable": 40000,
+        "tax_deferred": 100000,
+        "tax_free": 10000
+      },
+      "annual_savings": {
+        "cash": 0,
+        "taxable": 2000,
+        "tax_deferred": 10000,
+        "tax_free": 0
+      }
+    },
+    {
+      "name": "Sarah",
+      "current_age": 58,
+      "retirement_age": 65,
+      "planning_horizon": 90,
+      "pre_retirement_income": 60000,
+      "post_retirement_income": 20000,
+      "portfolio": {
+        "cash": 500,
+        "taxable": 0,
+        "tax_deferred": 60000,
+        "tax_free": 6000
+      },
+      "annual_savings": {
+        "cash": 0,
+        "taxable": 0,
+        "tax_deferred": 5000,
+        "tax_free": 500
+      }
+    },
+    {
+      "name": "Joint",
+      "portfolio": {
+        "cash": 10000,
+        "taxable": 0,
+        "tax_deferred": 0,
+        "tax_free": 0
+      },
+      "annual_savings": {
+        "cash": 1000,
+        "taxable": 0,
+        "tax_deferred": 0,
+        "tax_free": 0
+      }
+    }
+  ],
+  "pre_retirement_expenses": 100000,
+  "post_retirement_expenses": 100000,
+  "returns": {
+    "cash": {"mean": 0.01, "volatility": 0.005},
+    "taxable": {"mean": 0.04, "volatility": 0.05},
+    "tax_deferred": {"mean": 0.06, "volatility": 0.1},
+    "tax_free": {"mean": 0.08, "volatility": 0.14}
+  },
+  "inflation": 0.025,
+  "num_simulations": 10000
+}
+```
 
-Expenses
-	•	"pre_retirement_expenses": Expected annual expenses before retirement
-	•	"post_retirement_expenses": Expected annual expenses after retirement
+**Individual Information**
+- **"name":** Individual’s name or "Joint" for shared accounts
+- **"current_age":** Current age in years
+- **"retirement_age":** Age at retirement
+- **"planning_horizon":** Age to simulate until (life expectancy)
+- **"pre_retirement_income":** Annual income before retirement (salary, bonuses, etc.)
+- **"post_retirement_income":** Annual income after retirement (Social Security, pensions, annuities, etc.)
+- **"portfolio":** Current balances in each bucket
+	- cash, taxable, tax_deferred, tax_free
+- **"annual_savings":** Contributions per year to each bucket
 
-Market Returns
-	•	"returns": Expected market returns and volatility for each bucket
-	•	mean – Expected average annual return (decimal, e.g., 0.06 = 6%)
-	•	volatility – Standard deviation of annual returns (decimal)
+**Expenses**
+- **"pre_retirement_expenses":** Expected annual expenses before retirement
+- **"post_retirement_expenses":** Expected annual expenses after retirement
 
-Inflation and Simulations
-	•	"inflation": Annual inflation rate (decimal)
-	•	"num_simulations": Number of Monte Carlo simulations to run
+**Market Returns**
+- **"returns":** Expected market returns and volatility for each bucket
+	- **mean –** Expected average annual return (decimal, e.g., 0.06 = 6%)
+	- **volatility –** Standard deviation of annual returns (decimal)
+
+**Inflation and Simulations**
+- **"inflation":** Annual inflation rate (decimal)
+- **"num_simulations":** Number of Monte Carlo simulations to run
 
 ### Tips ###
 
