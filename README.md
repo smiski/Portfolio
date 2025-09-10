@@ -54,14 +54,14 @@ Overview of the project, including the problem it solves or skill it demonstrate
 
 ## 🛠️ Tech Stack
 This portfolio includes projects written with:  
-- **Languages:** C++, Java, Python, C#, Kotlin, JavaScript  
-- **Frameworks & Libraries:** React, Qt, MAUI, OpenMP, NumPy, etc.  
-- **Tools:** Git, Docker, MySQL, OpenSSL  
+- **Languages:** C++, Python, JavaScript, HTML  
+- **Frameworks & Libraries:** NumPy, Matplotlib, CSS3, Unreal Engine, etc. 
+- **Tools:** Git 
 
 ---
 
 ## 📬 Contact
 If you’d like to connect, discuss projects, or collaborate:  
-- 📧 Email: your.email@example.com  
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)  
-- 🌐 Portfolio Website: [yourwebsite.com](https://yourwebsite.com)  
+- 📧 Email: calebmercier@gmail.com  
+- 💼 LinkedIn: [Caleb Mercier](https://www.linkedin.com/in/calebmercier)  
+- 🌐 Portfolio Website: [calebmercier.com](https://www.calebmercier.com)  
