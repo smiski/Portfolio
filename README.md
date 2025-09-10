@@ -33,15 +33,15 @@ It allows users to create mazes by placing walls, adjust start and end points, a
 
 ---
 
-### [Project Name 3](./Project3)
+### [🎮 2D Platformer](./2D_Platformer)
 **Description:**  
-Overview of the project, including the problem it solves or skill it demonstrates.  
+A precision 2D platformer developed in C++ visual scripting using Unreal Engine for a 72-hour game jam. The game challenges players with tight controls, creative level design, and unique movement mechanics inspired by classic arcade titles.
 **Highlights:**  
-- Feature A  
-- Feature B  
+- **Community Vote:** Game ranked #231 out of 1,200 entries for fun by popular vote. 
+- **Unreal Engine:** Learned C++ visual scripting in one week for the game jam.  
 
 **Screenshot:**  
-![Project3 Screenshot](./Project3/screenshot.png)
+![Snooze Screenshot](./2D_Platformer/screenshots/Snooze1)
 
 ---
 
