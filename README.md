@@ -34,8 +34,10 @@ It allows users to create mazes by placing walls, adjust start and end points, a
 ---
 
 ### [🎮 2D Platformer](./2D_Platformer)
+
 **Description:**  
 A precision 2D platformer developed in C++ visual scripting using Unreal Engine for a 72-hour game jam. The game challenges players with tight controls, creative level design, and unique movement mechanics inspired by classic arcade titles.
+
 **Highlights:**  
 - **Community Vote:** Game ranked #231 out of 1,200 entries for fun by popular vote. 
 - **Unreal Engine:** Learned C++ visual scripting in one week for the game jam.  
