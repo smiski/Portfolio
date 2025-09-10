@@ -56,7 +56,7 @@ A precision 2D platformer developed in C++ visual scripting using Unreal Engine 
 
 ## 🛠️ Tech Stack
 This portfolio includes projects written with:  
-- **Languages:** C++, Python, JavaScript, HTML  
+- **Languages:** C, C++, Python, JavaScript, HTML  
 - **Frameworks & Libraries:** NumPy, Matplotlib, CSS3, Unreal Engine, etc. 
 - **Tools:** Git 
 
