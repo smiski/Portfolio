@@ -7,9 +7,9 @@ It allows users to create mazes by placing walls, adjust start and end points, a
 - **Interactive Grid Editing:** Place and erase walls by clicking and dragging. Move start (green) and end (red) positions dynamically.
 - **Real-Time Visualization:** BFS and Dijkstra run side by side on separate grids. Animations show visited cells (light blue) and final path (yellow). Execution time displayed in milliseconds for each algorithm.  
 
-![Pathfinder Screenshot 1](./BFSvsDijkstras/screenshots/Pathfinder1.png)
+![Pathfinder Screenshot 1](./screenshots/Pathfinder1.png)
 
-![Pathfinder Screenshot 2](./BFSvsDijkstras/screenshots/Pathfinder2.png)
+![Pathfinder Screenshot 2](./screenshots/Pathfinder2.png)
 
 ## How to Download & Run  
 1. Clone the repository.
@@ -18,17 +18,17 @@ It allows users to create mazes by placing walls, adjust start and end points, a
 
 ## Controls
 - Place Walls
-  - Left-click and drag on the grid to draw walls (black).
-  - Click again on a wall to erase it.
+	- Left-click and drag on the grid to draw walls (black).
+	- Click again on a wall to erase it.
 - Move Start & End Points
-  - Drag the green square to reposition the start.
+	- Drag the green square to reposition the start.
 	- Drag the red square to reposition the end.
 - Buttons
-  - Start → Runs both BFS and Dijkstra simultaneously, animating their exploration.
+	- Start → Runs both BFS and Dijkstra simultaneously, animating their exploration.
 	- Reset → Clears all walls, visited nodes, and paths.
 - Visualization Colors
-  - Green = Start node
+	- Green = Start node
 	- Red = End node
-  - Black = Wall
+	- Black = Wall
 	- Light Blue = Visited cells
-  - Yellow = Shortest path found
+	- Yellow = Shortest path found
