@@ -43,7 +43,7 @@ A precision 2D platformer developed in C++ visual scripting using Unreal Engine 
 - **Unreal Engine:** Learned C++ visual scripting in one week for the game jam.  
 
 **Screenshot:**  
-![Snooze Screenshot](./2D_Platformer/screenshots/Snooze1)
+![Snooze Screenshot](./2D_Platformer/screenshots/Snooze1.png)
 
 ---
 
