@@ -64,4 +64,4 @@ This portfolio includes projects written with:
 If you’d like to connect, discuss projects, or collaborate:  
 - 📧 Email: calebmercier@gmail.com  
 - 💼 LinkedIn: [Caleb Mercier](https://www.linkedin.com/in/calebmercier)  
-- 🌐 Portfolio Website: [calebmercier.com](https://www.calebmercier.com)  
+- 🌐 Portfolio Website: [calebmercier.com](https://calebmercier.com)  
