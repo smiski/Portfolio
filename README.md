@@ -20,6 +20,46 @@ This project is a Monte Carlo retirement portfolio simulator that models the lon
 
 ---
 
+### [✈️ WSCE Mini Battlespace Simulation](./WSCE_Mini_Battlespace)
+
+**Description:**
+
+This C++ project implements a real-time battlespace modeling and simulation environment inspired by modern defense training and evaluation systems. The simulator models aircraft and missile interactions using physics-based kinematics, parallel processing, and networked telemetry.
+
+A fixed-timestep simulation loop updates entities in real time while broadcasting live state data over UDP, allowing external visualization and control tools to interact with the simulation.
+
+This project demonstrates core software engineering concepts used in synthetic training environments, flight simulators, and large-scale Modeling & Simulation (M&S) systems.
+
+**Highlights:**
+- **Real-Time Modeling & Simulation**
+  - Fixed timestep deterministic simulation loop
+  - Real-time pacing suitable for training environments
+
+- **Parallel Processing & Threading**
+  - Custom C++ thread pool
+  - Parallel entity updates per simulation tick
+  - Scalable architecture for large simulations
+
+- **Physics & Mathematical Modeling**
+  - 3D kinematics
+  - Euler and RK4 numerical integration
+  - Proportional Navigation (PN) missile guidance
+
+- **Network-Connected Software**
+  - Cross-platform UDP telemetry streaming
+  - UDP command/control interface
+  - External tool interoperability
+
+- **Live Visualization**
+  - Python real-time visualization client
+  - Live aircraft and missile tracking
+
+![WSCE Screenshot - Visualization](./WSCE_Mini_Battlespace/screenshots/visualization.png)
+
+![WSCE Screenshot - Terminal](./WSCE_Mini_Battlespace/screenshots/terminal.png)
+
+---
+
 ### [➡️ BFS vs Dijkstra Pathfinding Visualizer](./BFSvsDijkstras)
 **Description:**  
 This project is an interactive web-based visualizer that demonstrates and compares two popular pathfinding algorithms: Breadth-First Search (BFS) and Dijkstra’s Algorithm.
