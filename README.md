@@ -6,6 +6,23 @@ Welcome to my portfolio! This repository contains a collection of software engin
 
 ## 📂 Projects
 
+### [📊 Client Dashboard — Full Stack Application](./Client_Dashboard)
+
+**Description:**
+
+This project is a full stack client management application designed to create, update, and organize client records through a modern web interface backed by a RESTful API and relational database. The system supports multi-phone-number management, soft deletion (archiving), and containerized deployment, demonstrating end-to-end development across frontend, backend, and database layers. Built with Vue.js, .NET Core, and Docker, the application emphasizes clean architecture, API integration, and real-world development workflows.
+
+**Highlights:**
+- **Full Stack Architecture:** Designed and implemented a complete system using Vue.js for the frontend, a .NET Core REST API backend, and a relational SQL database, fully orchestrated with Docker containers.
+- **Relational Data Modeling:** Implemented a one-to-many client-to-phone-number schema with soft-delete archiving to preserve historical data while maintaining a clean user experience.
+- **RESTful API Integration:** Built and consumed endpoints for creating, retrieving, updating, and archiving clients, with centralized request handling and consistent error management.
+- **Dynamic Client Management UI:** Developed interactive dashboard and management views allowing real-time editing, multi-phone-number support, and seamless navigation between workflows.
+- **Containerized Development Environment:** Leveraged Docker and Docker Compose to provide reproducible builds, simplified onboarding, and consistent local development across services.
+
+![Client Dashboard Screenshot](./Client_Dashboard/screenshots/dashboard.png)
+
+---
+
 ### [💸 Monte Carlo Retirement Simulator](./Retirement_Simulator)
 
 **Description:**  
