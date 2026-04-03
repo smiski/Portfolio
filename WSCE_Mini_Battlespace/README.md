@@ -1,4 +1,4 @@
-# ✈️ WSCE Mini Battlespace Simulation
+# ✈️ Real-Time Battlespace Simulation System
 
 ## Description
 This C++ project implements a real-time battlespace modeling and simulation environment inspired by modern defense training and evaluation systems. The simulator models aircraft and missile interactions using physics-based kinematics, parallel processing, and networked telemetry.
