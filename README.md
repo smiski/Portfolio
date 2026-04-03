@@ -21,7 +21,7 @@ Built using Kotlin Multiplatform, FastAPI, and PostgreSQL, the application combi
 - **Secure Backend Design:** Implemented RESTful APIs with data validation and secure persistence.
 - **Scalable System Design:** Structured backend and simulation components for modularity and future extensibility.
 
-![Robo Advisor Screenshot](https://github.com/smiski/Finza/Deliverables/FinzaBanquetSlide.png)
+![Robo Advisor Screenshot](https://raw.githubusercontent.com/smiski/Finza/main/Deliverables/FinzaBanquetSlide.png)
 
 ---
 
