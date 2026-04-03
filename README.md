@@ -6,38 +6,26 @@ Welcome to my portfolio! This repository contains a collection of software engin
 
 ## 📂 Projects
 
-### [📊 Client Dashboard — Full Stack Application](./Client_Dashboard)
+### [🤖 Finza: AI-Powered Robo Advisor](https://github.com/smiski/Finza)
 
 **Description:**
 
-This project is a full stack client management application designed to create, update, and organize client records through a modern web interface backed by a RESTful API and relational database. The system supports multi-phone-number management, soft deletion (archiving), and containerized deployment, demonstrating end-to-end development across frontend, backend, and database layers. Built with Vue.js, .NET Core, and Docker, the application emphasizes clean architecture, API integration, and real-world development workflows.
+This project is a full-stack financial planning application that leverages machine learning and simulation to generate personalized retirement recommendations. The system integrates a cross-platform frontend, a secure backend API, and a Monte Carlo simulation engine to model long-term financial outcomes under uncertainty.
+
+Built using Kotlin Multiplatform, FastAPI, and PostgreSQL, the application combines modern backend architecture with AI-driven insights to deliver actionable financial guidance.
 
 **Highlights:**
-- **Full Stack Architecture:** Designed and implemented a complete system using Vue.js for the frontend, a .NET Core REST API backend, and a relational SQL database, fully orchestrated with Docker containers.
-- **Relational Data Modeling:** Implemented a one-to-many client-to-phone-number schema with soft-delete archiving to preserve historical data while maintaining a clean user experience.
-- **RESTful API Integration:** Built and consumed endpoints for creating, retrieving, updating, and archiving clients, with centralized request handling and consistent error management.
-- **Dynamic Client Management UI:** Developed interactive dashboard and management views allowing real-time editing, multi-phone-number support, and seamless navigation between workflows.
-- **Containerized Development Environment:** Leveraged Docker and Docker Compose to provide reproducible builds, simplified onboarding, and consistent local development across services.
+- **Full Stack Architecture:** Developed a cross-platform application using Kotlin Multiplatform with a FastAPI backend and PostgreSQL database.
+- **AI-Driven Recommendations:** Integrated a PyTorch-trained model to generate personalized financial insights and recommendations.
+- **Monte Carlo Simulation Engine:** Runs thousands of simulations to model portfolio performance under stochastic market conditions.
+- **Secure Backend Design:** Implemented RESTful APIs with data validation and secure persistence.
+- **Scalable System Design:** Structured backend and simulation components for modularity and future extensibility.
 
-![Client Dashboard Screenshot](./Client_Dashboard/screenshots/dashboard.png)
-
----
-
-### [💸 Monte Carlo Retirement Simulator](./Retirement_Simulator)
-
-**Description:**  
-This project is a Monte Carlo retirement portfolio simulator that models the long-term growth and depletion of individual or joint investment portfolios under varying market conditions. It provides probabilistic projections of portfolio balances, accounting for income, expenses, savings, inflation, and stochastic market returns, helping users make informed financial planning decisions. Built with Python, it leverages numpy for numerical computations and matplotlib for interactive visualizations.
-
-**Highlights:**  
-- **Stochastic Monte Carlo Simulation:** Runs thousands of scenarios to assess portfolio longevity and risk under realistic market volatility.  
-- **Customizable Financial Inputs:** Supports multiple individuals, joint accounts, pre- and post-retirement expenses, and user-defined investment allocations.  
-- **Interactive Visualization & Reporting:** Generates clear, professional plots of portfolio trajectories, with success rates, ending balances, and key statistical summaries to aid decision-making.  
-
-![Monte Carlo Simulation Screenshot](./Retirement_Simulator/screenshots/married.png)
+![Robo Advisor Screenshot](https://github.com/smiski/Finza/Deliverables/FinzaBanquetSlide.png)
 
 ---
 
-### [✈️ WSCE Mini Battlespace Simulation](./WSCE_Mini_Battlespace)
+### [✈️ Real-Time Battlespace Simulation System](./WSCE_Mini_Battlespace)
 
 **Description:**
 
@@ -74,6 +62,37 @@ This project demonstrates core software engineering concepts used in synthetic t
 ![WSCE Screenshot - Visualization](./WSCE_Mini_Battlespace/screenshots/visualization.png)
 
 ![WSCE Screenshot - Terminal](./WSCE_Mini_Battlespace/screenshots/terminal.png)
+
+---
+
+### [📊 Client Dashboard — Full Stack Application](./Client_Dashboard)
+
+**Description:**
+
+This project is a full stack client management application designed to create, update, and organize client records through a modern web interface backed by a RESTful API and relational database. The system supports multi-phone-number management, soft deletion (archiving), and containerized deployment, demonstrating end-to-end development across frontend, backend, and database layers. Built with Vue.js, .NET Core, and Docker, the application emphasizes clean architecture, API integration, and real-world development workflows.
+
+**Highlights:**
+- **Full Stack Architecture:** Designed and implemented a complete system using Vue.js for the frontend, a .NET Core REST API backend, and a relational SQL database, fully orchestrated with Docker containers.
+- **Relational Data Modeling:** Implemented a one-to-many client-to-phone-number schema with soft-delete archiving to preserve historical data while maintaining a clean user experience.
+- **RESTful API Integration:** Built and consumed endpoints for creating, retrieving, updating, and archiving clients, with centralized request handling and consistent error management.
+- **Dynamic Client Management UI:** Developed interactive dashboard and management views allowing real-time editing, multi-phone-number support, and seamless navigation between workflows.
+- **Containerized Development Environment:** Leveraged Docker and Docker Compose to provide reproducible builds, simplified onboarding, and consistent local development across services.
+
+![Client Dashboard Screenshot](./Client_Dashboard/screenshots/dashboard.png)
+
+---
+
+### [💸 Monte Carlo Retirement Simulator](./Retirement_Simulator)
+
+**Description:**  
+This project is a Monte Carlo retirement portfolio simulator that models the long-term growth and depletion of individual or joint investment portfolios under varying market conditions. It provides probabilistic projections of portfolio balances, accounting for income, expenses, savings, inflation, and stochastic market returns, helping users make informed financial planning decisions. Built with Python, it leverages numpy for numerical computations and matplotlib for interactive visualizations.
+
+**Highlights:**  
+- **Stochastic Monte Carlo Simulation:** Runs thousands of scenarios to assess portfolio longevity and risk under realistic market volatility.  
+- **Customizable Financial Inputs:** Supports multiple individuals, joint accounts, pre- and post-retirement expenses, and user-defined investment allocations.  
+- **Interactive Visualization & Reporting:** Generates clear, professional plots of portfolio trajectories, with success rates, ending balances, and key statistical summaries to aid decision-making.  
+
+![Monte Carlo Simulation Screenshot](./Retirement_Simulator/screenshots/married.png)
 
 ---
 
